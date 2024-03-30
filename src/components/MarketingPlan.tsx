@@ -144,7 +144,6 @@ const MarketingPlan = () => {
               <Carousel 
                 infiniteLoop
                 autoPlay
-                showThumbs
                 showArrows={false}
                 showIndicators
                 className=''
