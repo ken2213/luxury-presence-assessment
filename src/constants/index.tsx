@@ -1,3 +1,4 @@
+import { FileBadge, Gem, Handshake, Home, MessageCircle, Phone, Search, UsersRound, Wrench } from "lucide-react";
 import homeDecorOne from "/public/decor/home_decor_1.png";
 import homeDecorTwo from "/public/decor/home_decor_2.jpg";
 import homeDecorThree from "/public/decor/home_decor_3.jpg";
@@ -11,30 +12,39 @@ import logoSereno from "/public/logos/sereno-logo.webp";
 export const navigationBarTitles = [
     {
         title: 'home',
+        icon: <Home />,
     },
     {
         title: 'meet the team',
+        icon: <UsersRound />,
     },
     {
         title: 'search for homes',
+        icon: <Search />
     },
     {
         title: 'our communities',
+        icon: <Handshake />
     },
     {
         title: 'home valuation',
+        icon: <Gem />
     },
     {
         title: 'services',
+        icon: <Wrench />
     },
     {
         title: 'home across america',
+        icon: <FileBadge />
     },
     {
         title: 'testimonials',
+        icon: <MessageCircle />
     },
     {
         title: 'contact us',
+        icon: <Phone />
     },
 ]
 
