@@ -132,32 +132,30 @@ const MarketingPlan = () => {
       </div>
 
       <div className='w-full flex justify-center py-20'>
-        <div className='w-[95%] md:w-[80%] lg:w-[900px] bg-lime-400'>
+        <div className='w-[95%] md:w-[80%] lg:w-[900px] '>
           
-          <div className='grid grid-cols-1 grid-rows-[300px] sm:grid-cols-2 text-center'>
+          <div className='grid grid-cols-1 grid-rows-[300px] sm:grid-cols-2 text-center '>
 
             <div className='bg-main text-white text-[2rem] tracking-wide flex justify-center items-center hover:bg-white hover:text-main transition-all hover:text-[2.5rem] hover:tracking-wider'>
               <h1 className='font-playfair-display font-bold'>Decor Guidance</h1>
             </div>
 
-            <div className='bg-red-800'>
+            <div className=''>
               <Carousel 
                 infiniteLoop
                 autoPlay
                 showThumbs
                 showArrows={false}
-                showIndicators={false}
-                // centerMode
+                showIndicators
                 className=''
+                
               >
                 {homeDecorImages.map((homeDecorImage) => (
-                  <div>
                     <Image 
                       src={homeDecorImage.image}
                       alt={`${homeDecorImage.image}'s image`}
                       className='object-cover w-[100px] h-[300px]'
                     />
-                  </div>
                 ))}
               </Carousel>
             </div>
@@ -185,7 +183,7 @@ const MarketingPlan = () => {
 
 
 
-          <div className='grid grid-cols-1 sm:grid-cols-2 text-center h-[300px]'>
+          <div className='grid grid-cols-1 grid-rows-[300px] sm:grid-cols-2 text-center '>
 
             <div className='bg-main text-white text-[2rem]  tracking-wide flex justify-center items-center hover:bg-white hover:text-main transition-all hover:text-[2.5rem] hover:tracking-wider'>
               <h1 className='font-playfair-display font-bold'>Open House</h1>
@@ -202,13 +200,13 @@ const MarketingPlan = () => {
 
 
 
-          <div className='grid grid-cols-1 sm:grid-cols-2 grid-flow-row-dense text-center h-[300px]'>
+          <div className='grid grid-cols-1 grid-rows-[300px] sm:grid-cols-2 text-center'>
 
             <div className='bg-main text-white text-[2rem]  tracking-wide flex justify-center items-center hover:bg-white hover:text-main transition-all hover:text-[2.5rem] hover:tracking-wider'>
               <h1 className='font-playfair-display font-bold'>Property Search</h1>
             </div>
 
-            <div className='bg-lime-800 order-first'>
+            <div className='sm:order-first'>
               <Image 
                 src={propertySearch}
                 alt='Property Search Image'
