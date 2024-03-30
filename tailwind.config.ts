@@ -52,7 +52,16 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        main: "#0a172a"
+        main: "#0a172a",
+        "main-800": "#2c364c",
+        "main-700": "#4a556c",
+        "main-600": "#5e6880",
+        "main-500": "#8690a9",
+        "main-400": "#a6b0cb",
+        "main-300": "#cad4f0",
+        "main-200": "#dbe5ff",
+        "main-100": "#e6f0ff",
+        "main-50": "#eef8ff",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -74,8 +83,13 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        "hero": "url('/interior.jpg')"
-      }
+        "hero": "url('/interior.jpg')",
+        "cta-img": "url('/cta.webp')",
+        "cta-gradient" : "linear-gradient(0deg, rgba(10,23,42,1) 0%, rgba(0,0,0, 0.95) 100%)",
+      },
+      fontFamily: {
+        "playfair-display": ['Playfair Display', 'serif'],
+      } 
     },
   },
   plugins: [require("tailwindcss-animate")],
