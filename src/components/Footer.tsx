@@ -8,9 +8,9 @@ const Footer = () => {
   return (
 
     <div className='flex justify-center bg-main text-[#eef8ff] pt-[200px]'>
-      <div className='h-[100vh] w-[95%] md:w-[90%] lg:w-[80%] xl:w-[70%]  '>
+      <div className='min-h-[100vh] w-[95%] md:w-[90%] lg:w-[80%] xl:w-[70%]  '>
         <div className=' grid grid-cols-1 sm:grid-cols-2 gap-x-12'>
-          <div className='min-h-[80vh] flex flex-col justify-between'>
+          <div className='min-h-[80vh] flex flex-col justify-between sm:gap-x-8'>
 
             <div className='flex flex-col gap-y-8'>
               <h1 className='text-main-100 font-playfair-display text-[2rem]'>
@@ -72,7 +72,7 @@ const Footer = () => {
                   href={"https://www.kennethornieta.tech/"}
 
                 >
-                  <p>Kenneth Ornieta</p>
+                  <p className='hover:underline transition-all'>Kenneth Ornieta</p>
                 </Link>
               </div>
 
@@ -81,7 +81,7 @@ const Footer = () => {
 
           </div>
 
-          <div className=' flex flex-col justify-between'>
+          <div className=' flex flex-col justify-between mt-20 gap-y-20'>
             <div className='flex flex-col gap-y-12'>
               <div className='flex flex-col gap-y-8'>
                 <h1 className='font-playfair-display text-[2rem]'>
@@ -123,7 +123,7 @@ const Footer = () => {
                 ))}
               </div>
 
-              <div>
+              <div className='py-10'>
                 <p>Copyright 2024 | Privacy Policy</p>
               </div>
             </div>
