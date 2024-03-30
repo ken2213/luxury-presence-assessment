@@ -29,7 +29,7 @@ const RealtorInfo = () => {
 
             </div>
 
-            <div className='pr-4 flex justify-center items-center'>
+            <div className='px-4 flex justify-center items-center order-first sm:order-last pt-4 sm:pt-0'>
               <Image 
                 src={realtorExp}
                 alt='realtor experience'
@@ -41,7 +41,7 @@ const RealtorInfo = () => {
           
           <div className='grid grid-cols-1 sm:grid-cols-2 mb-12 rounded-md bg-main-50 min-h-80 shadow-lg gap-x-4'>
 
-            <div className='pl-4 flex justify-center items-center'>
+            <div className='px-4 flex justify-center items-center pt-4 sm:pt-0'>
               <Image 
                 src={realtorStrategy}
                 alt='realtor experience'
@@ -110,7 +110,7 @@ const RealtorInfo = () => {
 
             </div>
 
-            <div className='pr-4 flex justify-center items-center'>
+            <div className='px-4 flex justify-center items-center order-first sm:order-last pt-4 sm:pt-0'>
               <Image 
                 src={realtorTablet}
                 alt='realtor experience'
