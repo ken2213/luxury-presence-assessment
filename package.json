@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.0",
+    "@photo-sphere-viewer/core": "^5.7.2",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "class-variance-authority": "^0.7.0",
@@ -19,6 +20,8 @@
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-photo-sphere-viewer": "^5.0.2-psv5.7.1",
+    "react-responsive-carousel": "^3.2.23",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7"
   },
