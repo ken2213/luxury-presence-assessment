@@ -17,7 +17,7 @@ export default function Home() {
       <ProcessSelling />
       <ProcessBuying />
       <RealtorInfo />
-      <WhyUs />
+      {/* <WhyUs /> */}
       <CallToAction />
       <Footer />
     </>
