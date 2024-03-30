@@ -111,7 +111,10 @@ const Footer = () => {
             <div className='flex flex-col gap-y-10'>
               <div className='flex gap-x-10'>
                 {footerLogos.map((logo) => (
-                  <div className='w-[70px] bg-[#eef8ff] flex justify-center items-center px-3 py-2 rounded-sm'>
+                  <div 
+                    className='w-[70px] bg-[#eef8ff] flex justify-center items-center px-3 py-2 rounded-sm'
+                    key={logo.id}
+                  >
                     <Image
                       key={logo.id}
                       src={logo.image}

@@ -101,7 +101,7 @@ const MarketingPlan = () => {
 
                   <div className='flex justify-center min-h-[10vh]'>
                     <p className='text-sm'>
-                      Let's make your home stand out with a high quality virtual tour.
+                      Let&apos;s make your home stand out with a high quality virtual tour.
                     </p>
                   </div>
                 </div>
@@ -151,7 +151,8 @@ const MarketingPlan = () => {
                 
               >
                 {homeDecorImages.map((homeDecorImage) => (
-                    <Image 
+                    <Image
+                      key={homeDecorImage.id}
                       src={homeDecorImage.image}
                       alt={`${homeDecorImage.image}'s image`}
                       className='object-cover w-[100px] h-[300px]'

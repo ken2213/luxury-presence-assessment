@@ -17,7 +17,7 @@ const WhyUs = () => {
                 our online marketing strategy
               </h1>
               <p className='text-center text-sm'>
-                The Bay Area remains one of the world's most sought-after regions to live in, and when looking to sell, it is vital that your home be marketed online to audiences locally, nationally, and internationally.
+                The Bay Area remains one of the world&apos;s most sought-after regions to live in, and when looking to sell, it is vital that your home be marketed online to audiences locally, nationally, and internationally.
               </p>
             </div>
 

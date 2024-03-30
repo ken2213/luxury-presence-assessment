@@ -11,38 +11,47 @@ import logoSereno from "/public/logos/sereno-logo.webp";
 
 export const navigationBarTitles = [
     {
+        id: 1,
         title: 'home',
         icon: <Home />,
     },
     {
+        id: 2,
         title: 'meet the team',
         icon: <UsersRound />,
     },
     {
+        id: 3,
         title: 'search for homes',
         icon: <Search />
     },
     {
+        id: 4,
         title: 'our communities',
         icon: <Handshake />
     },
     {
+        id: 5,
         title: 'home valuation',
         icon: <Gem />
     },
     {
+        id: 6,
         title: 'services',
         icon: <Wrench />
     },
     {
+        id: 7,
         title: 'home across america',
         icon: <FileBadge />
     },
     {
+        id: 8,
         title: 'testimonials',
         icon: <MessageCircle />
     },
     {
+        id: 9,
         title: 'contact us',
         icon: <Phone />
     },
@@ -50,18 +59,23 @@ export const navigationBarTitles = [
 
 export const homeDecorImages = [
     {
+        id: 1,
         image: homeDecorOne,
     },
     {
+        id: 2,
         image: homeDecorTwo,
     },
     {
+        id: 3,
         image: homeDecorThree,
     },
     {
+        id: 4,
         image: homeDecorFour,
     },
     {
+        id: 5,
         image: homeDecorFive,
     },
 ]

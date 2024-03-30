@@ -40,7 +40,10 @@ const ProcessSelling = () => {
             ref={leftRef}
           >
             {buyingProcesses.map((process) => (
-              <div className='h-screen flex flex-col justify-center items-center gap-y-5 px-2 sm:px-8 lg:px-20'>
+              <div 
+                className='h-screen flex flex-col justify-center items-center gap-y-5 px-2 sm:px-8 lg:px-20'
+                key={process.stepNumber}
+              >
                 <div className='min-h-[50vh] w-[95%] text-main hover:bg-main hover:text-white transition-all flex flex-col justify-evenly border-[1px] rounded-lg'>
                   <div className='flex justify-center items-center'>
                     <h1 className='text-[4rem] sm:text-[5rem] font-playfair-display font-bold'>{process.stepNumber}</h1>
